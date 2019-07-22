@@ -12,3 +12,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.board{
+  margin-left: calc(50% - 75px);
+  display:grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+}
+.square{
+  border:1px solid black;
+  font-size: 40px;
+  text-align: center;
+  cursor:default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.app{
+  margin-top:10px;
+  text-align: center;
+  display:grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: auto;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.game-start button{
+  padding:5px;
+}
